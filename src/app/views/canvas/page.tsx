@@ -2,10 +2,11 @@ import IframeFetcher from '../../components/IframeFetcher';
 
 const SimpleIframe = () => {
     const org = 'demo';
-    const project = 'nyc-canvas-jam';
+    const project = 'rill-openrtb-prog-ads';
     const iframeBody = {
-        resource: 'Leaderboard',
-        type: 'canvas'
+        resource: 'executive_overview',
+        type: 'canvas',
+        navigation: true
     };
 
     /**
