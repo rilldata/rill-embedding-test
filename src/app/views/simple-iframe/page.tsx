@@ -1,7 +1,7 @@
 import IframeFetcher from '../../components/IframeFetcher';
 
 const SimpleIframe = () => {
-    const org = 'demo';
+    const org = 'rilldata';
     const project = 'rill-embed';
     const iframeBody = {
         resource: 'embed_explore',
@@ -10,7 +10,7 @@ const SimpleIframe = () => {
     /**
      * The full request would look like
      * 
-     * URL: https://admin.rilldata.com/v1/organizations/demo/projects/rill-openrtb-prog-ads/iframe
+     * URL: https://admin.rilldata.io/v1/organizations/demo/projects/rill-openrtb-prog-ads/iframe
      * Method: POST
      * headers: {
      *   Authorization: "Bearer ${rillServiceToken}"
@@ -52,7 +52,7 @@ const SimpleIframe = () => {
                 </li>
                 <li>
                     <a
-                        href="https://ui.rilldata.com/demo/rill-openrtb-prog-ads/explore/bids_explore"
+                        href="https://ui.rilldata.io/demo/rill-openrtb-prog-ads/explore/bids_explore"
                         className="text-indigo-600 underline hover:text-indigo-800"
                     >
                         Rill Dashboard

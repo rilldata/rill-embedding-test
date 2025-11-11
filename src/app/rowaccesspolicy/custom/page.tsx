@@ -1,7 +1,7 @@
 import IframeFetcher from '../../components/IframeFetcher';
 
 const SimpleIframe = () => {
-    const org = 'demo';
+    const org = 'rilldata';
     const project = 'rill-embed';
     const iframeBody = {
         resource: 'auction_custom_access_policy_metrics_explore',

@@ -1,7 +1,7 @@
 import InteractiveRillFrame from '../../components/InteractiveRillFrame';
 
 const SimpleIframe = () => {
-    const org = 'demo';
+    const org = 'rilldata';
     const project = 'rill-embed';
     const iframeBody = {
         resource: 'embed_explore'
