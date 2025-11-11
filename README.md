@@ -1,6 +1,6 @@
 # Rill embedding example
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fb82df0c-351e-4b2b-9e7c-30ff5418ff79/deploy-status)](https://app.netlify.com/sites/rill-embedding-example/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/13cef1d4-e51b-404e-ac5f-e4f4e93808f3/deploy-status)](https://app.netlify.com/projects/rill-embed-test/deploys)
 
 ## Getting Started
 
