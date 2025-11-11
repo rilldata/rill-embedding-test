@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rill embedding example
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb82df0c-351e-4b2b-9e7c-30ff5418ff79/deploy-status)](https://app.netlify.com/sites/rill-embedding-example/deploys)
 
 ## Getting Started
 
