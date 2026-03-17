@@ -43,7 +43,7 @@ const SimpleIframe = () => {
                 </li>
                 <li>
                     <a
-                        href="https://ui.rilldata.io/demo/rill-openrtb-prog-ads/explore/bids_explore"
+                        href="https://ui.rilldata.in/demo/rill-openrtb-prog-ads/explore/bids_explore"
                         className="text-indigo-600 underline hover:text-indigo-800"
                     >
                         Rill Dashboard

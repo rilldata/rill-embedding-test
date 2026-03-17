@@ -5,7 +5,7 @@ export async function POST(req: Request) {
 
 
     const rillServiceToken = process.env.RILL_SERVICE_TOKEN!;
-    const url = `https://admin.rilldata.io/v1/organizations/${org}/projects/${project}/iframe`;
+    const url = `https://admin.rilldata.in/v1/organizations/${org}/projects/${project}/iframe`;
 
     const response = await fetch(url, {
         method: 'POST',
