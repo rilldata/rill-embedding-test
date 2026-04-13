@@ -143,13 +143,14 @@ const Home = () => {
             <a href="/externalUserId" className="text-indigo-600 underline">
               External User ID
             </a>
-            : Pass an{" "}
+            : Pass{" "}
             <code className="bg-gray-100 text-gray-800 px-1 rounded">
               external_user_id
             </code>{" "}
-            in the iframe request to enable persistent per-user AI chat history.
-            Users will be able to see their previous conversations with the Rill
-            AI agent across embed sessions.
+            in the iframe request to enable persistent per-user state. This
+            currently only covers AI chat history; when set, users will be able
+            to see their previous conversations with the Rill AI agent across
+            embed sessions.
           </li>
         </ul>
       </div>

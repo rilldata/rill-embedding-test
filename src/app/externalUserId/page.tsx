@@ -30,9 +30,9 @@ const ExternalUserIdPage = () => {
         <code className="bg-gray-100 text-gray-800 px-1 rounded">
           external_user_id
         </code>{" "}
-        parameter in the iframe request body, each user gets their own
-        persistent state. This is currently only used for AI chat history,
-        allowing previous conversations to be accessed across embed sessions.
+        parameter in the iframe request body, you enable persistent per-user
+        state. This is currently only used for AI chat history, allowing
+        previous conversations to be accessed across embed sessions.
       </p>
       <p className="text-gray-600 mb-6">
         Try switching between users below. Each user will have their own

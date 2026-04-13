@@ -2,46 +2,53 @@ import "./globals.css";
 import Link from "next/link";
 import Logo from "./components/Logo";
 
-
 const NAV_ITEMS = [
   {
     header: "Views",
     items: [
       { id: "views/simple-iframe", label: "Embed Explore dashboard" },
       // { id: "views/custom-view", label: "Custom View Explore dashboard" },
-      { id: "views/canvas", label: "Canvas Dashboards" }
+      { id: "views/canvas", label: "Canvas Dashboards" },
     ],
   },
   {
     header: "Navigation",
     items: [
       { id: "navigation/navigation-enabled", label: "Embed with navigation" },
-      { id: "navigation/pivot-disabled", label: "Pivot disabled embed dashboard" },
+      {
+        id: "navigation/pivot-disabled",
+        label: "Pivot disabled embed dashboard",
+      },
     ],
   },
   {
     header: "Row Access Policies",
     items: [
-      { id: "rowaccesspolicy/basic", label: "Row access policy enabled dashboard" },
-      { id: "rowaccesspolicy/custom", label: "Passing custom attributes to metrics view" },
-    ]
+      {
+        id: "rowaccesspolicy/basic",
+        label: "Row access policy enabled dashboard",
+      },
+      {
+        id: "rowaccesspolicy/custom",
+        label: "Passing custom attributes to metrics view",
+      },
+    ],
   },
   {
     header: "Embedded getState.setState",
-    items: [
-      { id: "setState/basic", label: "Basic getState" },
-
-    ]
+    items: [{ id: "setState/basic", label: "Basic getState" }],
   },
   {
-    header: "Per-User AI Chat",
-    items: [
-      { id: "externalUserId", label: "External User ID" },
-    ]
-  }
+    header: "Per-User State",
+    items: [{ id: "externalUserId", label: "External User ID" }],
+  },
 ];
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
@@ -59,7 +66,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav className="w-64 bg-gray-100 border-r border-gray-300 p-4">
             {NAV_ITEMS.map((group, groupIndex) => (
               <div key={groupIndex} className="mb-4">
-                <h2 className="text-gray-600 font-semibold mb-2">{group.header}</h2>
+                <h2 className="text-gray-600 font-semibold mb-2">
+                  {group.header}
+                </h2>
                 <div className="space-y-1">
                   {group.items.map((item) => (
                     <Link
@@ -74,7 +83,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             ))}
           </nav>
-          <main className="flex-1 p-6 overflow-y-auto bg-white text-gray-800">{children}</main>
+          <main className="flex-1 p-6 overflow-y-auto bg-white text-gray-800">
+            {children}
+          </main>
         </div>
       </body>
     </html>
