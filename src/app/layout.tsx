@@ -32,6 +32,12 @@ const NAV_ITEMS = [
       { id: "setState/basic", label: "Basic getState" },
 
     ]
+  },
+  {
+    header: "Per-User AI Chat",
+    items: [
+      { id: "externalUserId", label: "External User ID" },
+    ]
   }
 ];
 
